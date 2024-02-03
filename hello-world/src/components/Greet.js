@@ -4,6 +4,6 @@ import React from "react";
 //     return <h1>Hello Chethiya</h1>
 // }
 
-const Greet = () => <h1>Hello Chethiya!</h1>; //arrow function
+const Greet = () => <h1>Hello Chethiya Galkaduwa!</h1>; //arrow function
 
 export default Greet;
