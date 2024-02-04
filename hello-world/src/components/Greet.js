@@ -4,6 +4,16 @@ import React from "react";
 //     return <h1>Hello Chethiya</h1>
 // }
 
-const Greet = () => <h1>Hello Chethiya Galkaduwa!</h1>; //arrow function
+const Greet = (props) => {
+console.log('data', props.x)
+return(
+    <div>
+        <h1>
+            Hello {props.name}! The {props.heroName} 
+        </h1>
+        {props.children}
+    </div>
+) 
+}
 
 export default Greet;
